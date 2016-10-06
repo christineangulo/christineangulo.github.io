@@ -1,0 +1,136 @@
+/*This is my stylesheet!*/
+* {
+	box-sizing: border-box;
+}
+
+*:focus {
+	outline: none;
+}
+
+/*make changes to the entire document*/
+html {
+	background: url(http://onehdwallpaper.com/wp-content/uploads/2015/07/Adorable-Cute-Baby-Cat-HD-Wallpapers.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/*make changes to the body*/
+body {
+	font-family: Montserrat, sans-serif;
+}
+
+/*make changes to the h1 header*/
+h1 {
+	font-family: Pacifico, cursive;
+	font-size: 45px;
+	margin: 0px;
+	padding-top: 5px;
+}
+
+/*make changes to the unordered list in the nav bar*/
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 25px;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+}
+
+/*make changes to the list items in the nav bar*/
+li.nav {
+	display: inline;
+	float: right;
+} 
+
+/*make changes to the links in the nav bar*/
+a.nav {
+	display: block;
+	padding: 15px;
+	font-family: Montserrat;
+	font-size: 30px;
+}
+
+/*change the color of lnks in the nav bar when hovering*/
+.nav:hover{
+	color: #ff66b3;
+}
+
+/*this will affect all anchor tags*/
+a:hover {
+	color:#ff66b3;
+}
+
+a:visited {
+	color: black;
+}
+
+/*removed the underline*/
+a {
+	text-decoration: none;
+	color: #666666;
+}
+
+/*the contact input boxes*/
+.contact input{
+	border: none;
+	border-bottom: 1px solid #AAA;
+	display: block;
+	margin-bottom: 15px;
+	padding: 4px;
+}
+
+/*highlight when on a part of the form*/
+.contact input:focus {
+	border-bottom: 2px solid  #666666;
+	color:  #666666;
+	transition: 0.2s ease;
+}
+
+/*submit button properties*/
+.submit-button {
+	margin: 5px auto;
+	width: 180px;
+	height: 32px;
+	border:none;
+	border-radius: 2px;
+	background-color: #0d0d0d;
+	color: #ffcccc;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-family: Montserrat;
+}
+
+/*hovering over the submit button*/
+.submit-button:hover {
+	opacity: 0.8;
+	box-shadow: 0 px 4px rgba(0,0,0,0.4);
+}
+
+/*???*/
+.submit-button:active {
+	opacity: 1;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+}
+
+/*created a left div so I can keep things neat*/
+.left {
+	width: 500px;
+}
+
+/*footer*/
+footer {
+	font-size: 15px;
+	font-family: Montserrat, sans-serif;
+}
+
+
+
+
+
+
+
+
